@@ -1,0 +1,90 @@
+/* desendant selectors */
+/* div p{ */
+    /* color: rgb(94, 94, 0); */
+/* } */
+/* adjacent seletors */
+/* div + p{
+    color: blue;
+} */
+ /* general sibling selector */
+/* div ~ p{
+    color: blue;
+} */
+ /* child seletors */
+ /* div > p{
+    color: brown;
+ } */
+  .btn{
+    width: 100px;
+    height: 70px;
+    border: none;
+  }
+  div  button {
+    background-color: yellow;
+    
+  }
+  div + button {
+    background-color: aqua;
+  }
+
+  a:hover{
+    color: purple;
+  }
+  a:active{
+    color: aqua;
+  }
+  a:visited{
+    color: yellow;
+  }
+  a:link{
+    color: black;
+  }
+   .btn:hover{
+    width: 200px;
+   }
+a.highlights:hover{
+    background-color:lightcoral;
+    font-size: 22px;
+}
+.first-letter::first-letter{
+  color: red;
+  font-size: 30px;
+  /* background-color: blue; */
+  /* padding-right: 20px; */
+  /* margin-left: 20px; */
+  /* line-height: 140px; */
+}
+.first-line::first-letter{
+  color: blue;
+  font-size: 30px;
+
+}
+.first-line::first-line{
+  color: green;
+}
+.smiley-img::before{
+  content: url(https://www.w3schools.com/css/smiley.gif);
+}
+.smiley-img::first-line{
+  color: red;
+}
+.unordered-list{
+::marker{
+  color: red;
+}
+}
+.unordered-list{
+::selection{
+  color: rebeccapurple;
+  background-color: yellow;
+}
+}
+a[target="_top" ]{
+  color: blue;
+}
+a[target="_blank" ]{
+  color: red;
+}
+[class|="demo"]{
+background-color: blueviolet;
+}
