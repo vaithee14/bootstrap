@@ -1,0 +1,133 @@
+.background-img {
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/banner-bg.jpg);
+    height: 659px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 17px;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    padding: 0px;
+
+  }
+  .nav-border {
+    border: 1px solid white;
+    width: 75%;
+    margin: auto;
+    height: 75px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menubar {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    column-gap: 20px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .main-heading {
+    font-size: 43px;
+    font-style: italic;
+  }
+  .subheading {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: 300;
+  }
+  @media (max-width: 680px) {
+    .menubar {
+      display: none;
+    }
+  }
+  .main-border {
+    /* border: 1px solid; */
+    /* height: 700px; */
+    padding-top: 107px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paras {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  }
+  .book-btn {
+    background-color: #ffb606;
+    padding: 13px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .second-background-img {
+    background-image: url(https://preview.colorlib.com/theme/foodfun/assets/images/food-bg.png);
+    width: 100%;
+    height: 887px;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* position: relative; */
+  }
+  .header {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  @media (max-width: 1091px) {
+    .main-border {
+      display: grid;
+      grid-template-rows:repeat(1,1fr);
+    }
+  }
+  .food-para {
+    margin-left: 154px;
+    margin-top: 82px;
+  }
+  .sec-para {
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  .head {
+    font-size: 39px;
+  }
+
+  @media (max-width:615px) {
+    .food-para{
+      margin-left: 12px;
+    }
+  }
+  .foods-image{
+    margin-top: 104px;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    margin-top: 100px;
+  }
+  
+  .foods-names:hover{
+background-color: #ffb606;
+  }
+  .flex{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 700;
+  }
